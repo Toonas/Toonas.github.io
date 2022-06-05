@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+navigation {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    gap: 1em;
+    background-color: aquamarine;
+}
+
+navigation > * {
+    display: inline-block;
+    padding: 1em;
+}
