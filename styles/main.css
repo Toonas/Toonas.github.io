@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-navigation {
+nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -12,7 +12,7 @@ navigation {
     background-color: aquamarine;
 }
 
-navigation > * {
+nav > * {
     display: inline-block;
     padding: 1em;
 }
