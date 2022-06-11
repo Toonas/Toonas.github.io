@@ -41,7 +41,12 @@ nav > *:hover {
     align-items: flex-start;
     gap: 1em;
 
-    overflow-x: auto;
+    padding: 1.5em;
+
+    border-radius: 3em;
+
+    overflow-x: overlay;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     scrollbar-width: thin;
 }
@@ -61,6 +66,14 @@ nav > *:hover {
     background-clip: content-box;
 }
 
+.tile {
+    border-radius: 1.5em;
+}
 .tile_redirect {
     display: inline-block;
+    padding: 1em;
+}
+
+.tile-img {
+    border-radius: 0.5em;
 }
