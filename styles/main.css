@@ -1,5 +1,14 @@
 body {
     margin: 0;
+    background-color: #34675C;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
 }
 
 nav {
@@ -21,6 +30,10 @@ nav > * {
 
 nav > *:hover {
     background-color: #042D28;
+}
+
+.mainblock {
+    margin: 1em;
 }
 
 .tiles_container {
