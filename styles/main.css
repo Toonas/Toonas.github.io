@@ -9,10 +9,16 @@ nav {
     display: flex;
     justify-content: center;
     gap: 1em;
-    background-color: aquamarine;
+    background-color: #053D38;
 }
 
 nav > * {
     display: inline-block;
     padding: 1em;
+    text-transform: uppercase;
+    color: #F26800;
+}
+
+nav > *:hover {
+    background-color: #042D28;
 }
