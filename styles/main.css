@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #34675C;
+    background-color: #f9f9fd;
 }
 
 a {
@@ -44,6 +44,8 @@ nav > *:hover {
     padding: 1.5em;
 
     border-radius: 3em;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
 
     overflow-x: overlay;
     overflow-y: hidden;
