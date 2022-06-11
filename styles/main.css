@@ -22,3 +22,32 @@ nav > * {
 nav > *:hover {
     background-color: #042D28;
 }
+
+.tiles_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+.tiles_container::-webkit-scrollbar {
+    width: 1em;
+}
+
+.tiles_container::-webkit-scrollbar-track {
+    border-radius: 10em;
+}
+
+.tiles_container::-webkit-scrollbar-thumb {
+    background-color: #F26800;
+    border-radius: 10em;
+    border: 0.25em solid transparent;
+    background-clip: content-box;
+}
+
+.tile_redirect {
+    display: inline-block;
+}
