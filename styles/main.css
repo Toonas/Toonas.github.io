@@ -41,6 +41,11 @@ nav > *:hover {
     margin: 1em;
 }
 
+.anchor {
+    position: relative;
+    top: -4rem;
+}
+
 .tiles_container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
