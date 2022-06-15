@@ -48,7 +48,7 @@ nav > *:hover {
 
 .tiles_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
     justify-items: stretch;
     gap: 1em;
 
@@ -107,6 +107,11 @@ nav > *:hover {
     object-fit: cover;
     object-position: center;
     border-radius: 0.5em;
+}
+
+.tile-title {
+    margin: 0;
+    margin-top: 1em;
 }
 
 footer {
