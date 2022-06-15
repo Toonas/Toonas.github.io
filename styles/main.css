@@ -117,6 +117,32 @@ nav > *:hover {
     margin-top: 1em;
 }
 
+.links_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link_redirect {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.link-img {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: bottom;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.link-text {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
 footer {
     padding: 2em;
     text-align: right;
