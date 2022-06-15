@@ -108,3 +108,10 @@ nav > *:hover {
     object-position: center;
     border-radius: 0.5em;
 }
+
+footer {
+    padding: 2em;
+    text-align: right;
+    color: #F26800;
+    background-color: #053D38;
+}
