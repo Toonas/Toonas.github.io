@@ -38,7 +38,10 @@ nav > *:hover {
 }
 
 .mainblock {
-    margin: 1em;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .anchor {
@@ -48,7 +51,7 @@ nav > *:hover {
 
 .tiles_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     justify-items: stretch;
     gap: 1em;
 
