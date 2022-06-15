@@ -1,0 +1,13 @@
+{
+    "name": "Toonas Studio",
+    "version": "1.0.0",
+    "description": "This is our site for games and assets",
+    "scripts": {
+      "lite": "lite-server --port 5525",
+      "start": "npm run lite"
+    },
+    "author": "Toonas",
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    }
+ }
